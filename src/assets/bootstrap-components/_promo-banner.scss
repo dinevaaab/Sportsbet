@@ -1,0 +1,43 @@
+.promo-banner {
+  margin-top: 1rem;
+  flex: 1;
+  background-color: rgb(26, 33, 42);
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+  + .promo-banner {
+    margin-left: 20px;
+  }
+  .banner-info {
+    position: absolute;
+    padding: 2rem;
+    height: 100%;
+    width: 40%;
+  }
+
+  .promo-title {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    // color: color-yiq(theme-color("section-bg"));
+  }
+
+  .promo-description {
+    color: rgb(134, 151, 162);
+  }
+
+  .promo-button {
+    // @include gradient-x(theme-color("primary-dark"), theme-color("primary"), 0%, 100%);
+    display: inline-block;
+    background-color: #0cd664;
+    color: #ffffff;
+    padding: 8px 32px;
+    border-radius: 6.25rem;
+  }
+  .promo-button :hover,
+  :active {
+    background-color: (#88d3a9, 3%);
+  }
+}

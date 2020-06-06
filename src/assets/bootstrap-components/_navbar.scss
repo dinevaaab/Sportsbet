@@ -1,0 +1,65 @@
+.navbar {
+    height: 4.75rem;
+    padding: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: -ms-flexbox;
+    @include media-breakpoint-down(sm) {
+        padding: 0.5rem 1rem;
+    }
+ }
+ .input {
+    background-color: rgb(26, 33, 42);
+    border-radius: 1.5rem;
+    border:1px solid rgb(49, 55, 63);
+    padding: 9px 40px 9px 15px;
+     height: 2.75rem;
+    width:8.188rem;
+    color:rgb(134, 151, 162);
+    display: inline-flex;
+    align-items: center;
+    
+
+ }
+ 
+.navbar-dark {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.07);
+    .navbar-brand {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        .project-name {
+            font-size: $font-size-md;
+        }
+        img {
+            height: 40px;
+            width: auto;
+            padding-left: 10px;
+        }
+
+    }
+
+    .navbar-nav {
+        .nav-link {
+            font-size: $font-size-md;
+            font-weight: $font-weight-semibold;
+            color: hsla(0,0%,100%,.7);
+            padding: 2rem;
+            border-top: 3px solid transparent;
+            border-bottom: 3px solid transparent;
+            &:hover, &.active {
+                border-bottom: 3px solid $white;
+                color: $white;
+                @include media-breakpoint-down(sm) {
+                    border-bottom: 3px solid transparent;
+                }
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            .nav-item + .nav-item {
+                border-top: 1px solid rgba($white, 0.2);
+            }
+        }
+
+    }
+
+}

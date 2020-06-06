@@ -1,0 +1,45 @@
+//
+// Base styles
+//
+.card-scroll{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.card-link{
+  font-size: 0.875rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: $card-box-shadow;
+  box-sizing: border-box;
+  width: 252px;
+  height: 96px;
+  background-color: transparent;
+border: none;
+box-shadow: none;
+
+
+  // padding-left:1rem;
+}
+
+.card-title {
+  color: white;
+  // font-size: $font-size-md;
+  font-size: 0.875rem;
+ 
+  justify-content: center;
+  display: flex;
+ 
+  flex-flow: column;
+
+}
+
+.card-popular {
+  padding: 0;
+  margin: 0;
+  height: 96px;
+  width: 96px;
+  border-radius: 2rem;
+}
