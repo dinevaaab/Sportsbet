@@ -9,7 +9,7 @@ const ProductCard = (props) => {
             <img className="card-img" src={props.imageUrl} alt="" />
           </div>
           <div className="card-title col">
-            <h3 className="">{props.label}</h3>
+            <h6 className="">{props.label}</h6>
           </div>
         </div>
       </a>

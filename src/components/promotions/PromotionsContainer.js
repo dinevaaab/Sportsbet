@@ -24,7 +24,7 @@ const PromotionsContainer = (props) => {
   return (
     <div className="scrollCategory " >
     
-    <div className="row">
+    <div className="flex-row">
       {listOfCategory}
       </div>
     </div>
