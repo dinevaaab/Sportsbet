@@ -10,7 +10,6 @@ const PromotionsContainer = (props) => {
         <Promotion
           itemLink={i.link}
           color={i.color}
-          // viewBoxInfo={i.viewBoxFromInfo}
           imageSvg1={i.imageSvg1}
           imageSvg2={i.imageSvg2}
           imageUrl={i.imageUrl}
